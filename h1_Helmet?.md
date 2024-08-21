@@ -10,4 +10,6 @@
 
 - Adam introduces tools such as sketching, diagramming, documentation and collaboration to enhance the understanding improve your threat modeling. Another effective tool is the STRIDE method which can be used to create a broad scope for your threat model.
 
--  
+- Once the question of "what can go wrong?" has been answered, a course of action must be decided for their prevention. An assessment for each threat-action combination has to be done and a deployment decision made. Finally, Adam stresses the importance of evaluating the work for future threat models.
+
+- When creating a threat model, it's important to remember there will be a lot of eyes on the final product therefore you must create a model which is coherent and concise.
