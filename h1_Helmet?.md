@@ -47,3 +47,49 @@ Common sense:
 - Utilise protective services (Antivirus, adblock, VPN)
 - Be mindful of what sites you visit
 - Don't click links willy nilly
+
+## b) Make-belief boogie-man
+My company is a quaint clothing brand specializing in creating hand-made clothes. A base range of classic lines along with custom requests from clients. The business operates mostly online, and there is a boutique along with a warehouse for shipments. Employees include: Owners, designers, tailors, graphic designers, social media managers, retail workers, customer service reps, marketing, 
+
+What are we working on?
+- Building brand recognition
+- Customer trust - Keep customer information secure
+- New designs
+- Usable secure website
+- Clear and easy deliveries
+- Welcoming store
+
+What can go wrong?
+- S = An attacker can send an email to an employee pretending to be someone else to attempt to gain access to the company's system. 
+- T = An attacker can get access to the supply chain and tamper with finished products or fabrics resulting in a loss in revenue as well as trust.
+- R = A customer can claim to have not received their order after it has been sent.
+- I = An attacker can gain access the company's employee data where personal information and financial records are stored.
+- D = The company website can be overloaded, which will deny access for customer's to access it.
+- E = An attacker can gain access to admin rights on the website or social media where they can show what they want.
+
+These are just singular examples of possible attacks this company could suffer, and there are numerous other ones. The biggest priorities for this company are:
+- Customer data
+- Secure suplly line
+- Brand image
+
+Suffering a succeful attack for any of the three above could be disasterous for the company. Realistically, a small scale clothing company won't have specific actors attempting attacks. Most probable would be a rivaling brand or coincidental physical attacks on supply chain. 
+
+What are we going to do about it?
+- Customer data must be locked down securly
+- Suplly line must be trusted and secured
+ - Data for both can be protected with robust server security along with employee training.
+ - Fabrics an shipments require trusted partners.
+
+- Payment details can be set up with a third party to mitigate risk.
+- Deliveries go through third party partners where risk for package loss has to be accepted with the partner.
+  - Step-by-step tracking can mitigate losses.
+
+- Website must be carefully created to not leave backdoors for potential attackers.
+- Social media must be carefully monitored and kept strictly in-house.
+- Brand affiliate's have to be picked carefully with brand image in mind.
+
+Did we do a good enough job?
+- Threat model must be updated and adjusted as we go.
+- Employee training is constant - E.g. dummy phising tests periodically.
+- Outside testing can be considered. E.g Social engineering, system hacking.
+- Get input from partners and customers. Outside insight can be invaluable.
