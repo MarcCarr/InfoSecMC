@@ -19,6 +19,25 @@ The Threat Modeling Manifesto is a set of guidelines and questions helping you t
 
 - When creating a threat model, it's important to remember there will be a lot of eyes on the final product therefore you must create a model which is coherent and concise.
 
+## OWASP CheatSheets Series Team 2021
+- OWASP’s cheat sheet introduces threat modeling as an integral part of the SDLC (software development life cycle) where the designers focus on the perspective of an attacker.
+- Threat modeling allows for a proactive safety strategy rather than reactive, which also allows for greater insight on the protected system.
+- OWASP divides the threat modeling process into four steps:
+
+System modeling
+- Building a full scale understanding of the system, and associated entities with the help of visual materials and collaborative efforts.
+
+Threat Identification
+- OWASP focus on the STRIDE (Spoofing, Tampering, Repudation, Information Disclosure, Denial of Service, Elevation of Privileges) technique, which effectively forces threat modlers to consider a wide array of possible attacks.
+
+Response and Mitigations
+- OWASP borrows Adam Shostack's META (Mitigate, Eliminate, Transfer, Accept) method for choosing the correct response to a threat.
+
+Review and Validation
+- The final step is for all associated parties to critically review the threat modeling process.
+
+- Although the four steps are very closly to related to the threat modeling Manifesto's four questions, they give a slightly different perspective which anchors in the fact that there is no "right way" to threat model.
+
 ## The Darknet Diaries - Ep. 75 Compromised Comms
 
 Compromised Comms introduces the story of one of the biggest security breaches in modern espionage. The story begins between 2009 and 2011 when Iranian officials discovered that the US had uncovered a lot of information about their enrichment efforts. Iranian officials suspected they had a mole once they found a malicious computer worm, Stuxnet, which had damaged Iran's nuclear program. Stuxnet is a physical piece of malware, which means it had to be walked into a top-secret Iranian facility, hence why Iran suspected a mole. Iran and the US are considered adversaries, therefore the US doesn't have any diplomatic status in Iran. This made it far more difficult for Iranian intelligence to locate possible spies. The CIA had a network of agents, assets, sources and handlers in and around Iran. One of them happened to be a double agent for the Iranian intelligence organisation. The double agent had found one source of communication that the CIA was using to contact these assets.
