@@ -27,3 +27,25 @@
  - Computed - Genterated types of data such as hash values.
  - Behavioral - A combination of the two former types of data that an attacker utilises to further their objective.
 
+## Intrusion Kill Chain
+- Keyword "Chain" aptly describes this phase based model as failure in any one link will cause the whole process to cease.
+- The intrusion kill chain includes seven steps:
+ - Reconnaissance - Researching openly available infromation on target.
+ - Weaponization - Create deliverable malware.
+ - Delivery - Dispatch weapon to target with e.g. email attatchment.
+ - Exploitation - Code triggers in target system attacking vulnerabilities.
+ - Installation - Install means for remote access for steady control of in target system.
+ - Command & control (C2) - Gain hands on keyboard access through an establsihed server connection.
+ - Actions & Objectives - Fulfill original mission and extract data or move laterally within target system.
+-As mentioned in the lesson, the final part of the kill chain is also the first part as you must have an objective before starting any other steps.
+
+# a) Bookworm
+
+I'm using a MacBook Air with an M1 processor, therefore I followed the instructions made by Teemu Laine https://github.com/HortTemppa/horttemppa.github.io/blob/main/h1.md
+
+## Installation
+- Instead of VirtualBox, I downloaded UTM virtualisation software here: https://mac.getutm.app/
+
+- After downloading and confirming installation, UTM opened to this screen:
+
+![Screenshot 2024-08-28 at 16 19 28](https://github.com/user-attachments/assets/672096d1-9953-4823-9b60-bcbd833f891d)
