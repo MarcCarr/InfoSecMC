@@ -43,9 +43,27 @@
 
 I'm using a MacBook Air with an M1 processor, therefore I followed the instructions made by Teemu Laine https://github.com/HortTemppa/horttemppa.github.io/blob/main/h1.md
 
-## Installation
+## Installation & Set up
 - Instead of VirtualBox, I downloaded UTM virtualisation software here: https://mac.getutm.app/
 
 - After downloading and confirming installation, UTM opened to this screen:
 
 ![Screenshot 2024-08-28 at 16 19 28](https://github.com/user-attachments/assets/672096d1-9953-4823-9b60-bcbd833f891d)
+
+- I selected "Browse UTM Gallery" which opened the gallery in my browser.
+- Debian 12 was the first option, and after clicking it, I selected "Open in UTM". UTM asked to confirm the choise and installed Debian 12.
+- Debin 12 was now visible on the left side where I right-clicked it to open the system preferences (Edit)
+- In "Information" I set my own username and password.
+- In "System" I increased the RAM to 4000MiB pictured below.
+  
+![Screenshot 2024-08-28 at 16 30 46](https://github.com/user-attachments/assets/f2e5af1f-6074-49b9-8167-c2d60e359e37)
+
+- In "Network" I switched Network mode to "Bridged"
+- Under "Drives" I selected "VirtIO Drive" and clicked resize to change it  to 60GB.
+
+![Screenshot 2024-08-28 at 16 38 25](https://github.com/user-attachments/assets/09f8e6d3-854c-4791-9406-24ab1f0b4a76)
+
+- Finally I clicked save and pressed play on the virtual machine.
+
+
+
