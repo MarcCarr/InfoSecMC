@@ -55,8 +55,8 @@ I'm using a MacBook Air with an M1 processor, therefore I followed the instructi
 - Debin 12 was now visible on the left side where I right-clicked it to open the system preferences (Edit)
 - In "Information" I set my own username and password.
 - In "System" I increased the RAM to 4000MiB pictured below.
-  
-![Screenshot 2024-08-28 at 16 30 46](https://github.com/user-attachments/assets/f2e5af1f-6074-49b9-8167-c2d60e359e37)
+
+![Screenshot 2024-08-29 at 19 53 00](https://github.com/user-attachments/assets/0755ff49-eb4c-498a-bcc6-f682b4108b05)
 
 - In "Network" I switched Network mode to "Bridged"
 - Under "Drives" I selected "VirtIO Drive" and clicked resize to change it  to 60GB.
