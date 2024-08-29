@@ -61,7 +61,7 @@ I'm using a MacBook Air with an M1 processor, therefore I followed the instructi
 - In "Network" I switched Network mode to "Bridged"
 - Under "Drives" I selected "VirtIO Drive" and clicked resize to change it  to 60GB.
 
-![Screenshot 2024-08-28 at 16 38 25](https://github.com/user-attachments/assets/09f8e6d3-854c-4791-9406-24ab1f0b4a76)
+![Screenshot 2024-08-29 at 19 55 19](https://github.com/user-attachments/assets/92c36ded-4f0c-4dc1-8cac-18ed8aa61d91)
 
 - Finally I clicked save and pressed play on the virtual machine.
 
