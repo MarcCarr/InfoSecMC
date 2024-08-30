@@ -26,6 +26,7 @@
  - Atomic - A basic form of data that retains its essence such as an IP address.
  - Computed - Genterated types of data such as hash values.
  - Behavioral - A combination of the two former types of data that an attacker utilises to further their objective.
+- Indicators seem like a very small part of the defencive action, but they are a vital part in helping to build a adaptable strong defence in the long run.
 
 ## Intrusion Kill Chain
 - Keyword "Chain" aptly describes this phase based model as failure in any one link will cause the whole process to cease.
@@ -38,6 +39,25 @@
  - Command & control (C2) - Gain hands on keyboard access through an establsihed server connection.
  - Actions & Objectives - Fulfill original mission and extract data or move laterally within target system.
 -As mentioned in the lesson, the final part of the kill chain is also the first part as you must have an objective before starting any other steps.
+
+## Courses of Action
+- Having a perceptive understanding of the adversary and their objectives allows for effective targeted defencive action.
+- Each phase of the intrusion kill chain has a correlating phase in the courses of action matrix designed to promote resiliant defence versus persistant attack, and force adverseries to sink more cost into their objective.
+  - Courses of action matrix consits of detect, deny, disrupt, degrade, deceive, and destroy.
+
+## Intrusion Reconstruction
+- Full understanding and abilty to reproduce a succesfully mitigated attack is an integral part of building a proactive defencive strategy for future intrusions.
+
+## Campaign Analysis
+- Campaign analysis is about studying long-term attacks and connecting the dots between similarities to get better insight on the adversary's intents and capabilities.
+- Ananlysis can provide information on existing campaigns or open the door for investigation to a new campaign.
+
+## Case Study
+- Three similar intrusion attempts were made in a two-week period where attackers sent a weaponized attachment to a limited amount of individuals via email. The sending address was disguised as a legitimate employee to invoke authenticity.
+- The attacker's objective was to install a backdoor from the attachment, and open a connection to a C2 server.
+- The first two had many commonalities which defenders leveraged to thwart the intrusion.
+- The third intrusion attempt differed from the first two, but was found out due to small similarities in key indicators.
+- This case study is a testament to how effective careful analysis of each indicator and step of the intrusion kill chain can prove fruitful for network defence.
 
 # a) Bookworm
 
