@@ -75,16 +75,33 @@ I'm using a MacBook Air with an M1 processor, therefore I followed the instructi
 - Debin 12 was now visible on the left side where I right-clicked it to open the system preferences (Edit)
 - In "Information" I set my own username and password. (These did not work on first log in)
 - In "System" I increased the RAM to 4GB pictured below.
+- Resizing over 4GB resulted in the VM not working!
 
-![Screenshot 2024-08-29 at 19 53 00](https://github.com/user-attachments/assets/0755ff49-eb4c-498a-bcc6-f682b4108b05)
+![Screenshot 2024-08-31 at 23 19 03](https://github.com/user-attachments/assets/e33fdfa9-be46-497e-9186-99f0fac12bfb)
 
 - In "Network" I switched Network mode to "Bridged"
-- Under "Drives" I selected "VirtIO Drive" and clicked resize to change it  to 60GB.
-
-![Screenshot 2024-08-29 at 19 55 19](https://github.com/user-attachments/assets/92c36ded-4f0c-4dc1-8cac-18ed8aa61d91)
 
 - Finally I clicked save and pressed play on the virtual machine.
 - Boot process was quite long, patience is needed.
+- After boot, I logged in with default username and password.
+- I opened "Activities" -> "Settings" -> "Users", and changed username and password to my own.
+
+![Screenshot 2024-08-31 at 23 06 38](https://github.com/user-attachments/assets/eec2c45d-adcf-4074-ba7f-4b7c2cfc29c1)
+
+## a)
+- I opened the terminal and used "sudo apt-get update" to update available software.
+![Screenshot 2024-08-31 at 23 11 37](https://github.com/user-attachments/assets/f5bd4b94-ad32-4450-b1c3-b629fa1a13b3)
+
+Some thoughts after completing this partly:
+- UTM VM is painfully slow with Mac M1 (at least mine)
+- I had to reinstall UTM / Debian at least 5 times before it worked at some capacity.
+- Debian download time varied from up to 6h to 15 minutes.
+- VM uses a huge amount of CPU, and usage is not stable.
+- VM crashed a lot or simply stopped responding.
+
+
+
+
 
 
 
