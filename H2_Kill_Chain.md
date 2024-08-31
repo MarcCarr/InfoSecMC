@@ -71,10 +71,10 @@ I'm using a MacBook Air with an M1 processor, therefore I followed the instructi
 ![Screenshot 2024-08-28 at 16 19 28](https://github.com/user-attachments/assets/672096d1-9953-4823-9b60-bcbd833f891d)
 
 - I selected "Browse UTM Gallery" which opened the gallery in my browser.
-- Debian 12 was the first option, and after clicking it, I selected "Open in UTM". UTM asked to confirm the choise and installed Debian 12.
+- I picked Devian 12, and selected "Open in UTM". UTM asked to confirm the choise and installed Debian 12.
 - Debin 12 was now visible on the left side where I right-clicked it to open the system preferences (Edit)
-- In "Information" I set my own username and password.
-- In "System" I increased the RAM to 4000MiB pictured below.
+- In "Information" I set my own username and password. (These did not work on first log in)
+- In "System" I increased the RAM to 4GB pictured below.
 
 ![Screenshot 2024-08-29 at 19 53 00](https://github.com/user-attachments/assets/0755ff49-eb4c-498a-bcc6-f682b4108b05)
 
@@ -84,6 +84,7 @@ I'm using a MacBook Air with an M1 processor, therefore I followed the instructi
 ![Screenshot 2024-08-29 at 19 55 19](https://github.com/user-attachments/assets/92c36ded-4f0c-4dc1-8cac-18ed8aa61d91)
 
 - Finally I clicked save and pressed play on the virtual machine.
+- Boot process was quite long, patience is needed.
 
 
 
