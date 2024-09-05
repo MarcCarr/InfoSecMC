@@ -5,19 +5,19 @@ https://www.youtube.com/watch?v=85J8OJmwkbI
 
 - Multiplayer and online games are the most popular globally. Players can harmfully be affected by:
    - DDoS
- - Data security breaches
- - In-game transaction failure
+   - Data security breaches
+   - In-game transaction failure
 
 - Game developers spend countless hours developing their games, and they need assurance their hard work is protected from:
- - Intellectual property theft
- - Game infrastructure exploitation
+   - Intellectual property theft
+   - Game infrastructure exploitation
 
 - Robust protection can be achieved by using, and fully understanding a suitable cyber security architecture.
 - Utilising the secure software development life cycle (SSDLC) process can mitigate potential vulnerabilities, and create a framework of best practices to follow.
- - SSDLC includes: Training -> Requirements -> Design -> Implementation -> Verification -> Release -> Response
+   - SSDLC includes: Training -> Requirements -> Design -> Implementation -> Verification -> Release -> Response
 - Industry standards, frameworks, and regulations promote cyber security.
- - GDPR in Europe
- - PCI DSS for secure transactions.
+   - GDPR in Europe
+   - PCI DSS for secure transactions.
 
 - Individual players can account for a good amount of security in gaming by following basic cyber security practices like account and password management.
 -
