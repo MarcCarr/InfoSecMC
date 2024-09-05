@@ -58,4 +58,13 @@ Level 3 -> 4
    - I accessed the file by using cat ./...filename
 
 
+# Can't Fish
+- First, I pinged Cloudflare's DNS server (1.1.1.1) with network on resulting in a succesful network test to destination server.
+- The ping shows destination IP, amount of data sent and the time taken. 
+- Next, I disabled network from settings and pinged the same server again.
+- Ping failed with error message: Network is unreachable.
+![Screenshot 2024-09-05 at 15 12 06](https://github.com/user-attachments/assets/7843d5bc-6321-47cc-9815-02932aa6cf32)
+
+
+
 
