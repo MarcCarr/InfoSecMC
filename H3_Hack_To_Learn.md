@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=85J8OJmwkbI
 - The gaming industry involves billions of people, and circulates massive amounts of money annually, which is why cyber security is an integral part of the grand scheme.
 
 - Multiplayer and online games are the most popular globally. Players can harmfully be affected by:
- - DDoS
+   - DDoS
  - Data security breaches
  - In-game transaction failure
 
