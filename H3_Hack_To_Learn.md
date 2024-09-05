@@ -33,5 +33,29 @@ https://terokarvinen.com/2020/command-line-basics-revisited/
 - Space, and key usage tips are a great attribute as command line is not always clear.
 
 
+# Bandit oh-five
+https://overthewire.org/wargames/bandit/
+
+Level 0 -> 1
+   - I opened the terminal in VM where I conneced to SSH bandit.labs.overthewire.org by writing bandit0@bandit.labs.overthewire.org -p 2220 (-p 2220 specifies port number 2220)
+   - I entered the provided password and was granted access.
+   - Once in, I used 'ls' to see files in current directory -> cat readme to find password for next level.
+
+Level 1 -> 2
+   - I opened the connection and entered the password I got from the previous step.
+   - Used 'ls' to see files -> File name was '-', therefore I used cat ./- to access the file.
+   - How to deal with dashes in file name: https://stackoverflow.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal
+
+Level 2 -> 3
+   - I opened the connection and entered the password I got from the previous step.
+   - Used 'ls' to see files -> File name included spaces therefore I wrapped it in quotations to access the contents.
+   - Dealing with spaces in file name: https://linuxhandbook.com/filename-spaces-linux/
+
+Level 3 -> 4
+   - I opened the connection and entered the password I got from the previous step.
+   - I changed directory path with cd inhere/
+   - I searched for all files with ls -a, ls alone didn't find the hidden file.
+   - I accessed the file by using cat ./...filename
+
 
 
