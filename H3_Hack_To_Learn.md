@@ -65,6 +65,23 @@ Level 3 -> 4
 - Ping failed with error message: Network is unreachable.
 ![Screenshot 2024-09-05 at 15 12 06](https://github.com/user-attachments/assets/7843d5bc-6321-47cc-9815-02932aa6cf32)
 
+# Port Scanning
+- I started by updating available software with 'sudo apt-get update'
+- Next, I installed nmap with command 'sudo apt install nmap -y', and checked the version with 'nmap --version'
+- Instructions found here: https://phoenixnap.com/kb/how-to-install-use-nmap-scanning-linux
+- I disconnected my network and tested it with a ping to Cloudflare DNS server
+- I ran the command 'sudo nmap -A localhost'
+
+![Screenshot 2024-09-06 at 14 56 09](https://github.com/user-attachments/assets/3d2dfe9a-11a2-4194-82d1-1d3f0b7b3cf3)
+
+- DNS server could not be determined since the scan was initiated without network connection.
+- Only port scanned is for localhost therefore no other TCP ports were scanned.
+- TCP port for SSH is 22 with SSH version 9.2p1 running on Debian
+- Port 631 is for connecting IPP = Internet Printing Protocol, i.e. for printers.
+- End breaks down basic information of device and OS version
+
+
+
 
 
 
