@@ -78,7 +78,17 @@ Level 3 -> 4
 - Only port scanned is for localhost therefore no other TCP ports were scanned.
 - TCP port for SSH is 22 with SSH version 9.2p1 running on Debian
 - Port 631 is for connecting IPP = Internet Printing Protocol, i.e. for printers.
-- End breaks down basic information of device and OS version
+- End breaks down basic information of device and OS version.
+
+
+# Daemon
+- I started by updating software again (just in case), and ran 'sudo apt-get -y install apache2'
+- After a minute or two the installation was succesful, and I ran 'sudo systemctl start apache2' to start daemon.
+- I disabled network and started the port scan.
+- Essentially the results were the same, but there was a new port added:
+     - Port 80 fro Apache on Debian as an HTTP server
+
+![Screenshot 2024-09-06 at 15 16 38](https://github.com/user-attachments/assets/d805239e-5b64-4367-97aa-941d32159110)
 
 
 
