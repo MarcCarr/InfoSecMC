@@ -71,33 +71,35 @@ I'm using a MacBook Air with an M1 processor, therefore I followed the instructi
 ![Screenshot 2024-08-28 at 16 19 28](https://github.com/user-attachments/assets/672096d1-9953-4823-9b60-bcbd833f891d)
 
 - I selected "Browse UTM Gallery" which opened the gallery in my browser.
-- I picked Devian 12, and selected "Open in UTM". UTM asked to confirm the choise and installed Debian 12.
+- I picked Debian 12, and selected "Open in UTM". UTM asked to confirm the choise and installed Debian 12.
+  - If expected time for installation is over 1h, I recommend in deleting and reinstalling UTM & Debian.  
 - Debin 12 was now visible on the left side where I right-clicked it to open the system preferences (Edit)
-- In "Information" I set my own username and password. (These did not work on first log in)
 - In "System" I increased the RAM to 4GB pictured below.
 - Resizing over 4GB resulted in the VM not working!
 
 ![Screenshot 2024-08-31 at 23 19 03](https://github.com/user-attachments/assets/e33fdfa9-be46-497e-9186-99f0fac12bfb)
 
-- In "Network" I switched Network mode to "Bridged"
+- In "Network" I switched Network mode to "Bridged".
+- Under "Drives" -> "VirtIO" -> Resize -> Make sure size it at minimum 64GB.
 
 - Finally I clicked save and pressed play on the virtual machine.
 - Boot process was quite long, patience is needed.
-- After boot, I logged in with default username and password.
+- After boot, I logged in with default username (debian) and password (debian).
+   - Logging in takes a while as well.
+- UTM uses a lot of CPU, but after a while it stabilizes and performance is better.
+   - Performance can dip every now and then, and sometimes the machine crashes.
+   - Try to avoid killing the VM to ensure progress and changes are saved.
 - I opened "Activities" -> "Settings" -> "Users", and changed username and password to my own.
+   - Username and password can also be changed in command line terminal, also found under "Activities".
+   - Note: Username stayed as 'debian' for me, but password change was succesful.
 
 ![Screenshot 2024-08-31 at 23 06 38](https://github.com/user-attachments/assets/eec2c45d-adcf-4074-ba7f-4b7c2cfc29c1)
 
 ## a)
 - I opened the terminal and used "sudo apt-get update" to update available software.
 ![Screenshot 2024-08-31 at 23 11 37](https://github.com/user-attachments/assets/f5bd4b94-ad32-4450-b1c3-b629fa1a13b3)
+- This later succeeded completely when opening VM for the second time. 
 
-Some thoughts after completing this partly:
-- UTM VM is painfully slow with Mac M1 (at least mine)
-- I had to reinstall UTM / Debian at least 5 times before it worked at some capacity.
-- Debian download time varied from up to 6h to 15 minutes.
-- VM uses a huge amount of CPU, and usage is not stable.
-- VM crashed a lot or simply stopped responding.
 
 
 
