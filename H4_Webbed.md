@@ -26,3 +26,19 @@
 
 
 # F12
+
+
+# SQLZoo
+- 0 SELECT basics
+    - Three subtasks required small modifications to ready made SQL code.
+    - 1st, I replaced 'France' with 'Germany'
+    - 2nd, I replaced 'Brazil', 'Russia', 'India' and 'China' with 'Norway', 'Sweden', 'Denmark'.
+    - 3rd, I replaced 250,000 and 300,000 with 200,000 and 250,000
+ 
+- 2 SELECT from world.
+    - 1st didn't reuqire any changes as it was illustrating the results when looking at the full table.
+    - 2nd, I changed WHERE population = 64105700 -> WHERE population > 200000000
+ 
+
+ 
+ 
