@@ -40,5 +40,13 @@
     - 2nd, I changed WHERE population = 64105700 -> WHERE population > 200000000
  
 
- 
+ # Johnny tables
+-I started by opening the example web page and browsing around the different products and categories. I looked for a field where I could insert text, but there wasn't one so I looked the URL more carefully. When looking at a specific category, the URL ended with e.g. "category=Accessories". Comparing this to the example query provided in the task instructions, I thought I could modify the URL to exploit the vulnerabilty here.
+
+- I wasn't sure where to begin or what to add to the URL so I read through this: https://portswigger.net/web-security/sql-injection#how-to-detect-sql-injection-vulnerabilities
+- The "Retrieving Hidden Data" section had the answer ready, which I added to the site's URL. I took away the 'category' part and added: 'OR+1=1--.
+    - Taking out the category and replacing it with a singel quotation mark results in an empty category field
+    - OR+1=1 gives the query a conditional that always evaluates to true
+    - "--" is SQL syntax for a comment, which negates the rest of the query that has the check for 'released'.
+- The website now shows all items. 
  
