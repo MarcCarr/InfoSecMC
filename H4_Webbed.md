@@ -26,6 +26,18 @@
 
 
 # F12
+- The installation process for Webgoat failed the first time after installing Java and a firewall which took just over an hour. 
+- I used the newest version (v2023.8) of Webgoat found here: https://github.com/WebGoat/WebGoat/releases
+- Installation of the Github jar worked, but changing the deafult port did not work – the change was very slow, and after about 45min the VM crashed.
+    - Re-opening the VM straight after also didn’t work properly
+    - The VM booted into the CLI rather than GUI.  I used ’sudo systemct1 start gdm’ to start GUI.
+    - Once GUI started up, I wasn’t able to log in. VM accepted the password, but the log in took about 10min, and returened to log in screen.
+
+- The next day, I repeated the installation, and default port change for Webgoat, and both worked. Took about 35min.
+- I opened Firefox browser to http://127.0.0.1:8888/WebGoat, which took another 20min.
+- I tried registering, but the page loaded for about 15min, and the VM gave me an error message that Firefox was not responding.
+- I tried to click ’Wait’ a few times, and ’Force quit’, but the VM was not responding, and eventually crashed.
+- I didin't have time to try again.
 
 
 # SQLZoo
