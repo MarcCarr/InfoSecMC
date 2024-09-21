@@ -89,5 +89,30 @@ https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 - Now both parties are able to send encrypted messages even on unsecure channels by signing the message with their private key. The recipient can decrypt the message using the public key they have verified.
   
 
+# Pretty Good indeed
+I used Homebrew on Mac OS terminal for a smoother and quicker experience.
 
+- I had Homebrew installed already, but it can be installed by following the instructions here: https://docs.brew.sh/Installation
+- First I installed 'gnupg' with the command "brew install gnupg"
+
+After installation: 
   
+![Screenshot 2024-09-21 at 13 29 57](https://github.com/user-attachments/assets/38833446-06eb-4ba5-af94-ac7aca507b92)
+
+- Next I ran "gpg --full-generate-key" to create the keys. When prompted, I entered: 
+  - Key type (1 - RSA)
+  - Key size between 1024-4096, I chose 2048
+  - Expiration date
+  - My name & email
+  - A comment
+  - Confirmation
+  - Passphrase
+![Screenshot 2024-09-21 at 13 40 17](https://github.com/user-attachments/assets/1f7b11b4-13b7-4f04-a8fd-28642833546d)
+
+- I created a text file with 'echo "Test secret message" > message.txt'
+- I encrypted it with "gpg --encrypt --recipient bhj362@myy.haaga-helia.fi message.txt"
+- And decprypted with "gpg --decrypt message.txt.gpg > decrypted_message.txt", which opened a window to input my passphrase:
+![Screenshot 2024-09-21 at 13 59 28](https://github.com/user-attachments/assets/c5dd1e95-80ec-4404-b95d-1d1b61602cd6)
+
+
+
