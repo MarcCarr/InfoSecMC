@@ -115,4 +115,17 @@ After installation:
 ![Screenshot 2024-09-21 at 13 59 28](https://github.com/user-attachments/assets/c5dd1e95-80ec-4404-b95d-1d1b61602cd6)
 
 
+# Password Manager
+I'm using Butterup password manager with local vault only. It has cloud capabilities, which I don't utilise. Buttercup has a desktop application where you can store passwords and files freely. 
+
+![Screenshot 2024-09-21 at 15 00 32](https://github.com/user-attachments/assets/ef269c6c-18f7-44cd-aec9-f2613fe2b0b1)
+
+You can add a browser extension for easy management and log ins.
+![Screenshot 2024-09-21 at 15 01 44](https://github.com/user-attachments/assets/aecbeeb3-af89-437e-a7f0-cbb53f7f8803)
+
+Password managers are an effective personal cyber security tools to protect against: 
+- Phishing attacks
+  - Websites won't automatically fill in log in credentials when opening the web page.
+- Data breaches
+  -  
 
