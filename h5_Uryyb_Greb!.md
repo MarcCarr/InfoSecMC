@@ -126,6 +126,10 @@ You can add a browser extension for easy management and log ins.
 Password managers are an effective personal cyber security tools to protect against: 
 - Phishing attacks
   - Websites won't automatically fill in log in credentials when opening the web page.
-- Data breaches
-  -  
+- Reusing & weak passwords
+  - Password manager will generate unique strong passwords.
+  - If a data breach were to occur on a site with your credentials, only the one password will be compromised.
+- Device vulnerabilty
+  - Passwords are secured behind a password which is not (or shouldn't) be logged anywhere. 
+  
 
