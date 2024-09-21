@@ -38,6 +38,37 @@ https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119
 - Public key algorithms or assymetric algorithms utilise two different keys.
   - A public key is used for encryption, and can feasibly be accesible to anyone.
   - A private key is the one sole key that can decrypt the message encrypted with the public key.
+ 
+
+## Security of Algorithms
+- Probable safety is attained if:
+  - The encrypted information is worth less than it costs to break the encryption
+  - Breaking encryption takes longer than the encrypted information needs to stay secret
+  - More data is required to break a single key than you can attain from said key
+
+- An algotithms complexity can be measured by its processing and data complexity along with storage requirements.
+
+
+## Steganography
+- Messages are hidden in a seemingly ordinary text or picture.
+  - Classic spy tricks like invisible ink
+  - Sligth changes of gradiation in image bytes
+
+## Substitution Ciphers and Transposition Ciphers
+- Susbtitution ciphers use single or groups of corresponding letters and numbers to create simple encryption.
+- Transposition ciphers consist of the same plaintext characters in a different order or setting.
+
+## Simple XOR
+- XOR is a very simple yet highly used encryption method.
+- Essentilly comparing two bits and returning 1 if only one of the compared is 1, and returning 0 if both are equal.
+
+## One-Time Pads
+- "The perfect encryption scheme"
+  - A truly random set of key letters are used to encrypt each character of the plaintext
+  - Encryption is modulo 26 of the key letter and plaintext character. E.g. O(15) + T(20) = 35 -> 35 - 26 = 9 -> I
+  - After encryption the sender destroys the used pages / pad.
+  - Receiver uses an identical pad / pages to decrypt, and destroys them as well.
+- Downsides are attaining true randomness for key letters and never using the same key sequence again.
 
 
 # Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
@@ -54,7 +85,8 @@ https://terokarvinen.com/2023/pgp-encrypt-sign-verify/
 - Alice then needs to verify Tero's signature on the public key to ensure she's communicating with the right person.
   - After verification, Alice can mark Tero's key as trusted which will show as "Full".
 - The same process is repeated with the roles reversed for Tero to verify it's Alice he's speaking with.
-- 
+
+- Now both parties are able to send encrypted messages even on unsecure channels by signing the message with their private key. The recipient can decrypt the message using the public key they have verified.
   
 
 
