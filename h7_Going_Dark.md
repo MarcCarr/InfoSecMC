@@ -28,6 +28,15 @@ https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
 - Logging into common services like Google will show the communication on their end.
 
 
+# Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser €
+- Tor provides layers of encryption that get peeled back in every node they pass through; hence the term 'onion router'.
+- Anyone can run a Tor relay to act as a pit stop for a layer of encryption to be removed before forwarding.
+- Tor circulates data randomly through the 6000 operational nodes in the network, and frequently changes the nodes and order.
+- Tor set up and launch are especially simple to provide easy access.
+- Generally speaking, Tor can be used by an average Joe to browse a website without awarding network traffic, or by criminals to communicate anonymously.
+- The user is usually the most liable when using Tor. Customization, everyday browsing habits, and allowing browser scripts to run can unintentionally leak data.
+
+
 
 # Tor
 
